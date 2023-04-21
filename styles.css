@@ -1,0 +1,184 @@
+body{
+    font-family: 'Montserrat';
+    text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    font-size: 3.5rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3{
+    font-weight: bold;
+    font-size: 1.5rem;
+    /* margin-top: 10px; */
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    color: #8f8f8f;
+    font-weight: normal;
+    /* padding: 0 20px; */
+} 
+
+.container-fluid{
+    padding: 7% 15%;
+}
+
+/* Title */
+
+#title{
+    background-color: #ff4C68;
+    color: #fff;
+}
+
+#title .container-fluid{
+    padding: 3% 15% 11%;
+}
+
+/* Navigation bar */
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar{
+    padding-bottom: 4.5rem;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+
+/* Download button */
+
+.download-btn{
+    margin: 5% 3% 5% 0;
+}
+
+.title-img{
+    /* width: 60%; */
+    transform: rotate(25deg);
+    position: absolute;
+}
+
+/* features section */
+
+#features{
+    background-color: #fff;
+    position: relative;
+}
+
+.features-box{
+    padding: 4%;
+}
+
+.features-img{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.features-img:hover{
+    color: #ff4C68;
+}
+
+/* Testamonial section */
+
+#testimonials{
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+
+/* Press section */
+
+#press{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-image{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricind section */
+
+#pricing{
+    padding: 100px;
+}
+
+.pricing-col{
+    padding: 3% 2%;
+}
+
+.btn-block{
+    margin-top: 0.5rem;
+    width: 90%;
+}
+
+/* call to action section */
+
+#cta{
+    background-color: #ff4C68;
+    color: #fff;
+}
+
+/* Footer Section */
+
+.footer-icon{
+    margin: 10px;
+}
+
+/* Media Queries */
+@media (max-width: 1050px){
+    .title-img{
+        position: static;
+        transform: none;
+        width: 300px;
+        height: 500ox;
+        margin-top: 3%;
+    }
+
+    .container-fluid{
+        padding: 3% 10% 11%;
+    }
+
+    #features{
+        padding: 7% 10%;
+    }
+
+    h3{
+        font-size: 2rem;
+    }
+    p{
+        font-size: larger;
+    }
+
+}
+
